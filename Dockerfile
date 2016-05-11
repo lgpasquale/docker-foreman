@@ -32,7 +32,7 @@ VOLUME /var/lib/puppet
 VOLUME /var/lib/postgresql
 
 # Expose TFTP port:
-EXPOSE 69
+EXPOSE 69/udp
 # Expose our HTTP/HTTPS ports:
 EXPOSE 80
 EXPOSE 443
